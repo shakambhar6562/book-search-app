@@ -1,0 +1,32 @@
+/*
+ *   Copyright (c) 2024 
+ *   All rights reserved.
+ */
+.navpanelBar {
+  background-color: rgb(255, 51, 0);
+  height: 60px;
+}
+.navpanelBar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+}
+.navpanelBar a,
+select {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: white;
+  cursor: pointer;
+}
+.navpanelBar select {
+  background: none;
+  border: none;
+}
+
+option {
+  width: 100px;
+  height: 100px;
+  color: grey;
+}

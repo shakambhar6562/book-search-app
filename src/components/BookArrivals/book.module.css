@@ -1,0 +1,16 @@
+/*
+ *   Copyright (c) 2024 
+ *   All rights reserved.
+ */
+.book {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bookDetails {
+  display: flex;
+  align-items: flex-start;
+}

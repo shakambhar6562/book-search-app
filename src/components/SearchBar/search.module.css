@@ -1,0 +1,45 @@
+/*
+ *   Copyright (c) 2024 
+ *   All rights reserved.
+ */
+.searchBar {
+  display: flex;
+  align-items: center;
+}
+.searchBar input {
+  width: 80px;
+  height: 35px;
+  border-right: none;
+  padding-left: 10px;
+  border: none;
+  border-right: none;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  background: rgb(228, 228, 228);
+  margin-left: -20px;
+  width: 100%;
+}
+input:focus {
+  outline: 0.4px solid white;
+}
+.icon {
+  height: 35px;
+  width: 35px;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-left: none;
+  cursor: pointer;
+  color: white;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.icon svg {
+  width: 10px;
+  height: 10px;
+}
+.icon:hover {
+  background-color: rgba(255, 0, 0, 0.678);
+}

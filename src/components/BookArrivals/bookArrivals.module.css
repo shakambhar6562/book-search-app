@@ -1,0 +1,32 @@
+/*
+ *   Copyright (c) 2024 
+ *   All rights reserved.
+ */
+.arrivalContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.arrivalContainer h2 {
+  padding-top: 20px;
+  text-align: center;
+}
+.horizontalLine {
+  width: 100px;
+  margin-top: 10px;
+  border-top: 3px solid red;
+  margin-bottom: 10px;
+}
+.booksContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+}
+.spinner {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  align-items: center;
+}
