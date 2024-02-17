@@ -11,7 +11,7 @@ export const App = () => {
   const [searchValue, setSearchValue] = useState("");
   const [bookData, setBookData] = useState([]);
   const [isBookDataLoading, setBookDataLoading] = useState(false);
-  const url = BOOKS_API + `=${searchValue || 'finance'}`;
+  const url = BOOKS_API + `=${searchValue || "finance"}`;
   const isValueChanged = useDeferredValue(searchValue);
   useEffect(() => {
     handleSearch();
