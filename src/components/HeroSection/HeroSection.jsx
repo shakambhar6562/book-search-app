@@ -4,8 +4,7 @@ const HeroSection = () => {
   return (
     <div className={styles.booksSaleImage}>
       <h1>Year end sale</h1>
-      <p>Get 80% off on All finance related Books</p>
-      <p>Offer expires in :12hrs</p>
+      <p className={styles.eightPercent}>Get 80% off on All finance related Books</p>
       <button>Avail now</button>
     </div>
   );

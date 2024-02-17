@@ -8,10 +8,10 @@ import { BookArrivals } from "./components/BookArrivals";
 import { useEffect } from "react";
 
 export const App = () => {
-  const [searchValue, setSearchValue] = useState("finance");
+  const [searchValue, setSearchValue] = useState("");
   const [bookData, setBookData] = useState([]);
   const [isBookDataLoading, setBookDataLoading] = useState(false);
-  const url = BOOKS_API + `=${searchValue}`;
+  const url = BOOKS_API + `=${searchValue || 'finance'}`;
   const isValueChanged = useDeferredValue(searchValue);
   useEffect(() => {
     handleSearch();

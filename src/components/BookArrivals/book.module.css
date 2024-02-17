@@ -2,15 +2,22 @@
  *   Copyright (c) 2024 
  *   All rights reserved.
  */
-.book {
-  border: 1px solid black;
-  padding: 10px;
-  margin: 10px;
+.book img {
+  width: 200px;
+  height: 250px;
+}
+.booksCard {
+  padding: 20px;
+  margin: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
-.bookDetails {
-  display: flex;
-  align-items: flex-start;
+.book {
+  border: 1px solid rgb(46, 40, 40);
+}
+
+.bookDetails p {
+  text-align: center;
 }
