@@ -30,3 +30,10 @@ option {
   height: 100px;
   color: grey;
 }
+@media only screen and (max-width: 430px)
+{
+  .navpanelBar ul
+  {
+    flex-wrap: wrap;
+  }
+}
